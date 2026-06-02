@@ -1,0 +1,18 @@
+openapi: 3.0.0
+
+info:
+  title: API Starter Kit
+  version: 1.0.0
+
+paths:
+  /balance:
+    get:
+      summary: Get user balance
+
+  /deposit:
+    post:
+      summary: Create deposit
+
+  /withdraw:
+    post:
+      summary: Create withdrawal
